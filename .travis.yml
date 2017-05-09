@@ -9,3 +9,5 @@ pandoc: false
 
 before_install:
   - cd RJSDMX
+
+r_check_args: --test-dir=inst/testWithInternet 
