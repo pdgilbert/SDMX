@@ -1,0 +1,11 @@
+language: r
+cache: packages
+
+r:
+  - release
+  - devel
+
+pandoc: false
+
+before_install:
+  - cd RJSDMX
